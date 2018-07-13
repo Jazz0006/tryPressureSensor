@@ -1,0 +1,14 @@
+version: 1.0.0
+maxFileSystemBytes: 512K
+
+executables:{
+	tryPressureSensor = ( barometor )
+}
+
+processes:
+{
+	run:
+	{
+		( tryPressureSensor ) 
+	}
+}

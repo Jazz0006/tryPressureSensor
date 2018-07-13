@@ -1,0 +1,12 @@
+requires:
+{
+	file:
+	{
+		/sys/bus/i2c/devices/4-0076/iio:device1/in_pressure_input /sys/devices/i2c-0/0-0076/iio:device1/
+	}
+}
+
+sources:
+{
+	Barometor.c
+}
